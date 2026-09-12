@@ -12,9 +12,8 @@ if (true) {
 }
 
 
-document.write(x)
-document.write("<br>") // Kijelzi: 10 (Kiszökött az IF blokkból!)
-document.write(kor); // Kijelzi: undefined (a hoisting miatt nem dob hibát)
+console.log(x) // Kijelzi: 10 (Kiszökött az IF blokkból!)
+console.log(kor) // Kijelzi: undefined (a hoisting miatt nem dob hibát)
 var kor = 30;
 
 /*
